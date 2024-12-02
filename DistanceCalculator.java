@@ -16,6 +16,7 @@ public class DistanceCalculator {
 		
 		List<String> lines = null;
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("Path to input file: ");
 		try {
 			lines = Files.readAllLines(Path.of(scanner.nextLine()));
 		} catch (IOException e) {
