@@ -76,7 +76,7 @@ public class XmasFinder {
 				}
 			}
 		}
-		System.out.println(xmasCounter);
+		System.out.println("Number of occurences of XMAS: " + xmasCounter);
 		
 	}	
 }
