@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class OrderedPageFinder {
+public class OrderedUpdateFinder {
 
 	public static void main(String[] args) {
 		int middlePageSum = 0;
