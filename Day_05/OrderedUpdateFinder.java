@@ -34,9 +34,7 @@ public class OrderedUpdateFinder {
 		}
 		lines.removeFirst();
 		
-		int k = 0;
 		while (!lines.isEmpty()) {
-			k++;
 			String[] update = lines.getFirst().split(",");
 			boolean rightOrder = true;
 			outer:
